@@ -12,7 +12,7 @@ This Python script utilizes [Playwright](https://playwright.dev/) and [Beautiful
    ```bash
    pip install playwright beautifulsoup4 pandas openpyxl
    ```
-#Ver 1.1
+## Ver 1.1
 -Added some extra code to catch the TimeoutErrors. And hopefully to keep the program running.
 
 
