@@ -12,9 +12,12 @@ This Python script utilizes [Playwright](https://playwright.dev/) and [Beautiful
    ```bash
    pip install playwright beautifulsoup4 pandas openpyxl
    ```
-## Ver 1.1
--Added some extra code to catch the TimeoutErrors. And hopefully to keep the program running.
+## Ver 1.2
+-Added period input function. This helps users to give the input in terminal instead of hardcoding it.
+-Added new functionality to create the excel file in the directory that the code runs. Previously excel file needed to be created manually first. It also checks if the file exists to prevent over writing the entire excel document that could cause data loss.
 
+## Ver 1.1
+-Added some extra code to catch the TimeoutErrors. This update makes the program run smoother.
 
 ## Usage
 1. Run the script in your terminal or IDE.
