@@ -12,6 +12,12 @@ This Python script utilizes [Playwright](https://playwright.dev/) and [Beautiful
    ```bash
    pip install playwright beautifulsoup4 pandas openpyxl
    ```
+## Scraper on duty, 2x speed
+![](https://github.com/frkncbngl/flight-price-web-scraper/blob/main/img/FlightScraper.gif)
+
+## Scraper running headless on terminal, 2x speed
+![](https://github.com/frkncbngl/flight-price-web-scraper/blob/main/img/terminal.gif)
+
 ## Ver 1.2
 - Added period input function. This helps users to give the input in terminal instead of hardcoding it.
 - Added new functionality to create the excel file in the directory that the code runs. Previously excel file needed to be created manually first. It also checks if the file exists to prevent over writing the entire excel document that could cause data loss.
