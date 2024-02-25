@@ -18,6 +18,9 @@ This Python script utilizes [Playwright](https://playwright.dev/) and [Beautiful
 ## Scraper running headless on terminal, 2x speed
 ![](https://github.com/frkncbngl/flight-price-web-scraper/blob/main/img/terminal.gif)
 
+## Example Output
+![](https://github.com/frkncbngl/flight-price-web-scraper/blob/main/img/Example_Output.png)
+
 ## Ver 1.2
 - Added period input function. This helps users to give the input in terminal instead of hardcoding it.
 - Added new functionality to create the excel file in the directory that the code runs. Previously excel file needed to be created manually first. It also checks if the file exists to prevent over writing the entire excel document that could cause data loss.
